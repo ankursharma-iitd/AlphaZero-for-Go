@@ -22,7 +22,7 @@ To start the train (best checkpoint will be automatically loaded):
 `sh train.sh`
 
 
-To start playing with AlphaGoPlayer_6.py against a random/fixed agent, execute:
+To start playing with `AlphaGoPlayer_6.py` against a random/fixed agent, execute:
 `python tournament.py`
 
 
