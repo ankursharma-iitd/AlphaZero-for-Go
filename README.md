@@ -2,13 +2,13 @@
 
 [Mastering the game of Go without human knowledge](https://www.nature.com/articles/nature24270.pdf)
 
-## Our source code consists of the following files inside the utils_6 folder :
-	* policyValueNet.py : Architecture and training procedure for the neural network
-	* MCTS.py : Gives policy for a given state after running MCTS for 100 simulations. 
-	* selfPlay.py : Starts training the model after loading the latest checkpoint
-	* utils.py : Contains helper functions to be used for MCTS & Policy-Value Network
-	* config.py : Parameters required for the configuration
-	* enums.py : Enumeration class for BLACK & WHITE colours
+Our source code consists of the following files inside the utils_6 folder :
+* policyValueNet.py : Architecture and training procedure for the neural network
+* MCTS.py : Gives policy for a given state after running MCTS for 100 simulations. 
+* selfPlay.py : Starts training the model after loading the latest checkpoint
+* utils.py : Contains helper functions to be used for MCTS & Policy-Value Network
+* config.py : Parameters required for the configuration
+* enums.py : Enumeration class for BLACK & WHITE colours
 
 To install the dependencies of this project, run:
 `pip install -r requirements.txt`
